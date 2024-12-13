@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+  <div id="myDiv">
+    <p>This is another paragraph inside a div.</p>
+  </div>
+
+  <script>
+    // Incorrect way to access the innerHTML of the div
+    document.getElementById("myDiv").innerHTML = document.getElementById("myDiv").innerHTML + "<p>Appending a new paragraph incorrectly.</p>";
+  </script>
+</body>
+</html>
