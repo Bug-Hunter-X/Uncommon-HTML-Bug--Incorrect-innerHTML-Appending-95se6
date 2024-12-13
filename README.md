@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to manipulating innerHTML in HTML.  The bug involves inefficiently appending to the innerHTML of an element, which can cause performance issues and security risks if user-supplied data is involved. The solution provides a more efficient and secure alternative.
